@@ -1,0 +1,17 @@
+127.0.0.1 - - [03/Oct/2022:17:37:16 +0800] "POST /books HTTP/1.1" 404 - http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [03/Oct/2022:17:46:28 +0800] "GET / HTTP/1.1" 200 52 http-bio-80-exec-1 412
+0:0:0:0:0:0:0:1 - - [03/Oct/2022:17:46:28 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-80-exec-3 13
+127.0.0.1 - - [03/Oct/2022:17:46:39 +0800] "POST /books HTTP/1.1" 200 14 http-bio-80-exec-5 376
+127.0.0.1 - - [03/Oct/2022:17:50:35 +0800] "POST /books HTTP/1.1" 200 14 http-bio-80-exec-1 452
+127.0.0.1 - - [03/Oct/2022:17:52:39 +0800] "POST /books HTTP/1.1" 200 14 http-bio-80-exec-1 377
+127.0.0.1 - - [03/Oct/2022:17:55:07 +0800] "GET /books HTTP/1.1" 200 852 http-bio-80-exec-3 34
+127.0.0.1 - - [03/Oct/2022:17:58:01 +0800] "PUT /books HTTP/1.1" 200 14 http-bio-80-exec-5 7
+127.0.0.1 - - [03/Oct/2022:17:58:48 +0800] "POST /books/14 HTTP/1.1" 405 1047 http-bio-80-exec-7 8
+127.0.0.1 - - [03/Oct/2022:17:59:25 +0800] "POST /books/5 HTTP/1.1" 405 1047 http-bio-80-exec-9 2
+127.0.0.1 - - [03/Oct/2022:17:59:42 +0800] "DELETE /books/5 HTTP/1.1" 200 14 http-bio-80-exec-1 8
+127.0.0.1 - - [03/Oct/2022:18:00:50 +0800] "GET /books/5 HTTP/1.1" 200 112 http-bio-80-exec-3 4
+127.0.0.1 - - [03/Oct/2022:18:00:59 +0800] "GET /books/1 HTTP/1.1" 200 134 http-bio-80-exec-5 3
+127.0.0.1 - - [03/Oct/2022:18:01:33 +0800] "GET /books/ HTTP/1.1" 200 861 http-bio-80-exec-7 4
+127.0.0.1 - - [03/Oct/2022:18:59:58 +0800] "GET /books/ HTTP/1.1" 200 892 http-bio-80-exec-1 397
+127.0.0.1 - - [03/Oct/2022:19:00:31 +0800] "GET /books/1 HTTP/1.1" 200 165 http-bio-80-exec-3 16
+127.0.0.1 - - [03/Oct/2022:19:00:40 +0800] "GET /books/666 HTTP/1.1" 200 77 http-bio-80-exec-5 3
